@@ -42,10 +42,15 @@ public class ArrayList1 {
         //ordenar
         Collections.sort(listaNumeros);
         
-        
-        
-        
         obx.amosar(listaNumeros);
+        //for each
+                obx.amosarForEach(listaNumeros);
+        //iterador
+        System.out.println("iterator");
+        obx.amosarIteradores(listaNumeros);
+        //amosar lista
+        System.out.println("amosar lista");
+        obx.ver(listaNumeros);
         
         
     }
